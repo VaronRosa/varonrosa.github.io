@@ -1,0 +1,150 @@
+/*Estilos generales */
+body {
+ font-family: Arial, sans-serif;
+ margin: 0;
+ padding: 0;
+ background-color: #2b5eec;
+ }
+
+ 
+
+ /* Estilos para el encabezado */
+ header {
+ background-color: #32b5d6;
+ color: #742f2f;
+ padding: 15px;
+ }
+
+ header img {
+ height: 30px;
+ }
+
+ 
+
+ /* Menú de navegación de la pagina */
+ main{
+ display: flex;
+ flex-direction: row;
+ }
+
+ 
+
+ 
+
+ 
+ /* Estilos para el pie de página */
+ footer {
+ background-color: #21be1b;
+ color: #fff;
+ padding: 20px;
+ text-align: center;
+ }
+
+ footer ul {
+ list-style: none;
+ padding: 0;
+ margin: 0;
+ display: flex;
+ justify-content: center;
+ }
+
+ footer ul li {
+ margin-right: 10px;
+ }
+ footer ul li a {
+ color: #fff;
+ text-decoration: none;
+ }
+
+ /* Estilos para el formulario de búsqueda */
+ aside {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end; /* Esto alinea todo el contenido a la derecha */
+    align-items: center;
+    height: 0px; /* Para que ocupe toda la altura de la pantalla */
+    background-color: #f74141;
+  }
+  
+  .search-container {
+    display: flex;
+    justify-content: flex-end; /* Alinea la barra a la derecha */
+    padding: 5px;
+    background-color: #532c2c;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  input[type="text"] {
+    padding: 8px;
+    border: 1px solid #1ee972;
+    border-radius: 4px;
+    margin-right: 5px;
+  }
+  
+  button {
+    padding: 8px 12px;
+    background-color: #4CAF50;
+    color: rgb(133, 11, 11);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+ 
+
+
+ /* Estilos para los enlaces */
+ a {
+ color: #333;
+ }
+ a:hover {
+ text-decoration: underline;
+ }
+
+
+ table{
+    background-color: rgb(167, 17, 17);
+    font-size: 28;
+ }
+ thead{
+    background-color: black;
+    color: white;
+ }
+
+ /*Estilo para la primera columna*/
+ tr:nth-child(2){
+    background-color: red;
+ }
+
+ /*Estilo para la segunda columna*/
+ tr:nth-child(2){
+    background-color: orange;
+}
+
+/*Estilo para la tercera columna*/
+tr:nth-child(3){
+    background-color: yellow;
+}
+
+/*Estilo para la cuarta columna*/
+tr:nth-child(4){
+    background-color: green;
+}
+
+/*Estilo para la quintaa columna*/
+tr:nth-child(5){
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
